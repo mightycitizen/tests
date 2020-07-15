@@ -1,5 +1,9 @@
 # Mighty Citizen Testing Scripts
 
+## Setup
+
+The `urls.js` controls which pages and what site url to test against. All of the following testing suites allow for local urls to be tested.
+
 ## Percy Visual Regression Testing
 You'll need to get a percy token for this project first before you can run this
 
