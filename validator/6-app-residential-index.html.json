@@ -1,0 +1,34 @@
+[
+    {
+        "type": "error",
+        "lastLine": 39,
+        "lastColumn": 74,
+        "firstColumn": 1,
+        "message": "Attribute “cz-shortcut-listen” not allowed on element “body” at this point.",
+        "extract": "\n</head>\n\n<body class=\"js-focus-visible nimbus-is-editor\" cz-shortcut-listen=\"true\"><noscr",
+        "hiliteStart": 10,
+        "hiliteLength": 74
+    },
+    {
+        "type": "error",
+        "lastLine": 119,
+        "firstLine": 117,
+        "lastColumn": 59,
+        "firstColumn": 47,
+        "message": "Bad value “100%” for attribute “width” on element “iframe”: Expected a digit but saw “%” instead.",
+        "extract": "    </div><iframe id=\"app\" src=\"/frontend/residential/form\" width=\"100%\"\n                                            style=\"transition: height 0.3s ease 0s; border: 0px; overflow: hidden; height: 1410px;\"\n                                            scrolling=\"no\"></ifra",
+        "hiliteStart": 10,
+        "hiliteLength": 254
+    },
+    {
+        "type": "error",
+        "lastLine": 119,
+        "firstLine": 117,
+        "lastColumn": 59,
+        "firstColumn": 47,
+        "message": "The “scrolling” attribute on the “iframe” element is obsolete. Use CSS instead.",
+        "extract": "    </div><iframe id=\"app\" src=\"/frontend/residential/form\" width=\"100%\"\n                                            style=\"transition: height 0.3s ease 0s; border: 0px; overflow: hidden; height: 1410px;\"\n                                            scrolling=\"no\"></ifra",
+        "hiliteStart": 10,
+        "hiliteLength": 254
+    }
+]

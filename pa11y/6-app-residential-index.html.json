@@ -1,0 +1,17 @@
+[
+    {
+        "code": "frame-title",
+        "type": "error",
+        "typeCode": 1,
+        "message": "Frames must have title attribute (https://dequeuniversity.com/rules/axe/3.5/frame-title?application=axeAPI)",
+        "context": "<iframe id=\"app\" src=\"/frontend/residential/form\" width=\"100%\" style=\"transition: height 0.3s ease 0s; border: 0px; overflow: hidden; height: 1410px;\" scrolling=\"no\"></iframe>",
+        "selector": "#app",
+        "runner": "axe",
+        "runnerExtras": {
+            "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+            "impact": "serious",
+            "help": "Frames must have title attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/frame-title?application=axeAPI"
+        }
+    }
+]

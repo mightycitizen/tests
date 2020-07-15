@@ -1,0 +1,17 @@
+[
+    {
+        "code": "color-contrast",
+        "type": "error",
+        "typeCode": 1,
+        "message": "Elements must have sufficient color contrast (https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=axeAPI)",
+        "context": "<button class=\"form-controls-submit button large\" type=\"submit\">Save and continue to coverage d...</button>",
+        "selector": "#main > form > div:nth-child(11) > button",
+        "runner": "axe",
+        "runnerExtras": {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "impact": "serious",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=axeAPI"
+        }
+    }
+]
