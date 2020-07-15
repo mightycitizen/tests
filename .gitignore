@@ -1,5 +1,4 @@
-pa11y/*
-validator/*
+
 cypress/videos/*
 cypress/snapshots/*
 node_modules
