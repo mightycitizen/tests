@@ -11,7 +11,7 @@ You'll need to get a percy token for this project first before you can run this
 `npx percy exec -- node snapshots.js`
 
 ## Cypress Functional Testing
-Tests are written in the `cypress/integration folder`
+Tests are written in the `cypress/integration` folder
 
 ### To run
 
