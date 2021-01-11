@@ -2,6 +2,9 @@
 
 ## Setup
 
+Git clone this repository at the root of your project folder. Remove the .git folder once you have cloned the repo. 
+Run `npm install` in the `tests` directory to install node modules. 
+
 The `urls.js` controls which pages and what site url to test against. All of the following testing suites allow for local urls to be tested.
 
 ## Percy Visual Regression Testing
