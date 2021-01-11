@@ -2,16 +2,15 @@
 
 ## Setup
 
-Git clone this repository at the root of your project folder. Remove the .git folder once you have cloned the repo. 
-Run `npm install` in the `tests` directory to install node modules. 
-
+Run `npm install` in this directory
 The `urls.js` controls which pages and what site url to test against. All of the following testing suites allow for local urls to be tested.
 
 ## Percy Visual Regression Testing
-You'll need to get a percy token for this project first before you can run this
 
+### Setup
+You'll need the Percy token from the Project Settings tab in Percy. Once you have it, you'll run `EXPORT PERCY_TOKEN=XXX` (where XXX is the token value from Percy.io)
 ### To run
-`npm run percy` (runs using snapshots via Cypress)
+`npm run percy` will create the build and push it to Percy.io.
 
 ## Cypress Functional Testing
 Tests are written in the `cypress/integration` folder
