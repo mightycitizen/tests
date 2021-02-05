@@ -1,4 +1,6 @@
 let percyHealthCheck = require('@percy/cypress/task')
+const htmlvalidate = require("cypress-html-validate/dist/plugin");
+
 
 /// <reference types="cypress" />
 // ***********************************************************
@@ -20,6 +22,7 @@ let percyHealthCheck = require('@percy/cypress/task')
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  htmlvalidate.install(on);
   on("task", percyHealthCheck);
 
 }

@@ -2,15 +2,13 @@
 
 ## Setup
 
-Run `npm install` in this directory
 The `urls.js` controls which pages and what site url to test against. All of the following testing suites allow for local urls to be tested.
 
 ## Percy Visual Regression Testing
+You'll need to get a percy token for this project first before you can run this
 
-### Setup
-You'll need the Percy token from the Project Settings tab in Percy. Once you have it, you'll run `EXPORT PERCY_TOKEN=XXX` (where XXX is the token value from Percy.io)
 ### To run
-`npm run percy` will create the build and push it to Percy.io.
+`npm run percy` (runs using snapshots via Cypress)
 
 ## Cypress Functional Testing
 Tests are written in the `cypress/integration` folder
@@ -19,12 +17,11 @@ Tests are written in the `cypress/integration` folder
 
 ```npx cypress open```
 
-## Axe Accessibility
+### Axe Accessibility
 
-### To run
-`node pa11y.js`
+Axe accessibility testing is run through Cypress - run the command above and then choose the a11y script. Cypress will show which templates have errors.
 
 ## HTML Validation
 
 ### To run
-`node validator.js`
+Run `npm run validation` in command line in this `test` folder. Results will output in the `validator` folder.

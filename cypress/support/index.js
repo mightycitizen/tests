@@ -14,6 +14,8 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import 'cypress-axe'
+import "cypress-html-validate/dist/commands";
 import './commands'
 
 // Alternatively you can use CommonJS syntax:
