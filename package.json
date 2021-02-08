@@ -24,6 +24,6 @@
     "scroll-to-bottomjs": "^1.1.0"
   },
   "devDependencies": {
-    "@percy/cypress": "^2.3.2"
+    "@percy/cypress": "^2.3.4"
   }
 }
