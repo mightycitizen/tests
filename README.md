@@ -30,7 +30,7 @@ Tests are written in the `cypress/integration` folder
 
 ### Axe Accessibility
 
-Axe accessibility testing is run through Cypress - run `npx cypress open` above and then choose the `a11y.js` script. Cypress will show which templates have errors.
+Axe accessibility testing is run through Cypress - run `npx cypress open` above and then choose the `a11y.js` script. Cypress will show which templates have errors. If you have the javascript console open, and click the error, it'll give you more details (the testing has to be finished or stopped in order to do this).
 
 ## HTML Validation
 
