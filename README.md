@@ -2,6 +2,14 @@
 
 ## Setup
 
+Clone this repo in your project `git clone git@github.com:mightycitizen/tests.git`
+
+Run the `setup.sh` - or run the commands manually:
+```
+rm -rf .git
+npm install
+```
+
 The `urls.js` controls which pages and what site url to test against. All of the following testing suites allow for local urls to be tested.
 
 ## Percy Visual Regression Testing
@@ -19,9 +27,13 @@ Tests are written in the `cypress/integration` folder
 
 ### Axe Accessibility
 
-Axe accessibility testing is run through Cypress - run the command above and then choose the a11y script. Cypress will show which templates have errors.
+Axe accessibility testing is run through Cypress - run `npx cypress open` above and then choose the `a11y.js` script. Cypress will show which templates have errors.
 
 ## HTML Validation
 
 ### To run
 Run `npm run validation` in command line in this `test` folder. Results will output in the `validator` folder.
+
+### Alternate Cypress Validation
+Validation testing can also be run through Cypress, which may be more accurate since it's run through browser emulation - run `npx cypress open` above and then choose the `validation.js` script. Cypress will show which templates have errors.
+
