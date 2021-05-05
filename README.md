@@ -13,7 +13,10 @@ npm install
 The `urls.js` controls which pages and what site url to test against. All of the following testing suites allow for local urls to be tested.
 
 ## Percy Visual Regression Testing
-You'll need to get a percy token for this project first before you can run this
+You'll need to get a percy token for this project first before you can run this - to get a token, go to your Percy account, find the project (or create the project), then go to project settings. You'll find a PERCY_TOKEN there. Before running any Percy commands, you'll need to run
+
+```EXPORT PERCY_TOKEN=[TOKEN HERE]```
+
 
 ### To run
 `npm run percy` (runs using snapshots via Cypress)
