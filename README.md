@@ -6,6 +6,7 @@ Clone this repo in your project `git clone git@github.com:mightycitizen/tests.gi
 
 Run the `setup.sh` - or run the commands manually:
 ```
+cd tests
 rm -rf .git
 npm install
 ```
