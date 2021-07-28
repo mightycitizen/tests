@@ -8,14 +8,15 @@ const { baseUrl, urls } = require('../../../urls');
 for (const path of urls) {
   describe("A11y: "+path, () => {
     it("Validation: " + path, () => {
-      const url = baseUrl + path;
+      // const url = baseUrl + 'pages-' + path + '/pages-'+ path + '.rendered.html'; // patternlab
+      const url = baseUrl + path; // standard
       cy.visit(url);
       cy.injectAxe();
       cy.window().then(cyWindow => scrollToBottom({ remoteWindow: cyWindow }));
       cy.checkA11y(null, {
         runOnly: {
           // type: 'tag',
-          values: ['wcag2a','wcag2aa','wcag21a','wcag21aa']
+          values: ['wcag2a','wcag2aa']
         },
         includedImpacts: ['critical', 'serious']
       })
