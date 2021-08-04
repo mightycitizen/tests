@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@percy/script": "^1.1.0",
-    "cypress": "^4.9.0",
+    "cypress": "^8.1.0",
     "cypress-axe": "^0.9.1",
     "cypress-file-upload": "^4.0.7",
     "cypress-html-validate": "^1.3.1",
