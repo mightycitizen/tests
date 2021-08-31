@@ -6,8 +6,8 @@ const { baseUrl, urls } = require('../../../urls');
 for (const path of urls) {
   describe("Visual Regression Testing", () => {
     it("Page: " + path, () => {
-      // const url = baseUrl + 'pages-' + path + '/pages-'+ path + '.rendered.html'; // patternlab
-      const url = baseUrl + path; // standard
+      const url = baseUrl + 'pages-' + path + '/pages-'+ path + '.rendered.html'; // patternlab
+      //const url = baseUrl + path; // standard
       cy.visit(url);
       cy.viewport(1200, 800);
       cy.wait(1000);
