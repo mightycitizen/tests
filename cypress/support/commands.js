@@ -26,3 +26,11 @@ import '@percy/cypress';
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('injectAxe', () => {
+  cy.readFile('./node_modules/axe-core/axe.js').then(function (source) {
+    return cy.window({ log: false }).then(function (window) {
+      window.eval(source);
+    });
+  });
+});
