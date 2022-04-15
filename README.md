@@ -4,7 +4,7 @@
 
 Clone this repo in your project `git clone git@github.com:mightycitizen/tests.git`
 
-Run the `setup.sh` - or run the commands manually:
+Remove the .git repo from the tests folder and install necessary node modules:
 ```
 cd tests
 rm -rf .git
