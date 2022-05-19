@@ -1,14 +1,14 @@
 let scrollToBottom = require("scroll-to-bottomjs");
 
 
-const { baseUrl, type, urls } = require('../../../urls');
+const { baseUrl, urls } = require('../../../urls');
 
 
 
 for (const path of urls) {
   describe("A11y: "+path, () => {
     it("Validation: " + path, () => {
-      const url = type === 'patternlab' ? baseUrl + 'pages-' + path + '/pages-'+ path + '.rendered.html' : baseUrl + path; // standard
+      const url = baseUrl + path; // standard
       cy.visit(url);
       cy.injectAxe();
       cy.window().then(cyWindow => scrollToBottom({ remoteWindow: cyWindow }));
