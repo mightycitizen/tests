@@ -13,8 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@percy/script": "^1.1.0",
-    "cypress": "^8.7.0",
     "cypress-axe": "^0.9.1",
     "cypress-file-upload": "^4.1.1",
     "cypress-html-validate": "^1.5.1",
@@ -25,6 +23,8 @@
     "scroll-to-bottomjs": "^1.1.0"
   },
   "devDependencies": {
-    "@percy/cypress": "^2.3.4"
+    "@percy/cli": "^1.26.3",
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^13.0.0"
   }
 }

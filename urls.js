@@ -1,7 +1,7 @@
 
 const baseUrl = 'http://localhost:6011/iframe.html?args=&id='
 const urls = [ 
-  'pages-events-events-detail--default',
+  'pages-general--default',
   'pages-events-events-listing--events-listing'];
 
   //'pages-home/pages-home.rendered.html',
